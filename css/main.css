@@ -1,0 +1,53 @@
+:root{
+    --main-background-color:#1e202b ;
+}
+ body{ 
+    background-image: linear-gradient(to bottom ,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../pop-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+.nav-link.active{
+    color: rgba(0, 0, 255, 0.678)!important;
+}
+nav img{
+    vertical-align: middle;
+}
+
+p{
+    color: #1e202b!important;
+}
+/* footer{
+    height: 100vh;
+} */
+.color-two{
+background-color: rgba(0, 0, 255, 0.404);
+}
+.colorOne{
+    background-color: #ffffffaf;
+}
+.colorTwo{
+    background-color: #ffffff96;
+}
+.colorThree{
+    background-color: #ffffff67;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background-color{
+    background-color: var(--main-background-color);
+}

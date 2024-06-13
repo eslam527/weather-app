@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.weatherapi.com/weather/64x64/day/116.png">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="text-capitalize">
+    <nav class="navbar navbar-expand-lg background-color " id="nav">
+      <div class="container-fluid p-3">
+        <a class="navbar-brand ms-5 text-white d-flex " href="#"
+          ><img  src="logo.png" alt="" class="p-3">
+          <div class="d-flex flex-column"><span class="h5">weather</span>
+        <span class="fs-6">Lorem, ipsum.</span>
+        </div></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav me-3">
+            <li class="nav-item">
+              <a class="nav-link text-white active" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">news</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="Home" class="home mt-4">
+        <div class="container">
+          <div class="row ">
+            <div class="col-sm-12">
+              <div class="searsh mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="find your locaition"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row p-3 g-5 mt-4  " id="body">
+            <div class="col-sm12 col-md-4 colorOne">
+              <p>
+                <div class="date d-flex justify-content-between p-1">
+                    <div class="day">saterday</div>
+                    <div class="monthe">
+                        11 june
+                    </div>
+                </div>
+                <span class="city my-3 ps-2 d-inline-block">cairo</span>
+                <div class="weatherInfo">
+                    <div class="degre fs-1 p-1">
+                        32.1oC
+                    </div>
+                </div>
+                <div class="weatherCodition p-1">
+                    &#x263C;
+                    <span class="d-block mt-2 fw-bold">sunny</span>
+                </div>
+                <div class="info mt-3">
+                    <span class="mx-2"><img class="p-1" src="icon-umberella.png" alt="">20%</span>
+                    <span class="mx-2"><img class="p-1" src="icon-wind.png" alt="">18km/h</span>
+                    <span class="mx-2"><img class="p-1" src="icon-compass.png" alt="">este</span>
+                </div>
+              </p>
+            </div>
+            <div class="col-sm12 col-md-4 colorTwo">
+                <div class="day text-center pt-4">sunday</div>
+                <div class="codition d-flex flex-column text-center mt-3">
+                    &#x263C;
+                          <span class="degry max py-2 fs-3">
+                            40.8oC
+
+                          </span>
+                          <span class="degry min py-1 fs-4">
+                            24.9o
+
+                          </span>
+                          <span class="info py-1 fw-bold ">
+                            sunny
+                          </span>
+                </div>
+            </div>
+            <div class="col-sm12 col-md-4 colorThree">
+                <div class="day text-center pt-4">sunday</div>
+                <div class="codition d-flex flex-column text-center mt-3">
+                    &#x263C;
+                          <span class="degry max py-2 fs-3">
+                            40.8oC
+
+                          </span>
+                          <span class="degry min py-1 fs-4">
+                            24.9 
+                            o
+
+                          </span>
+                          <span class="info py-1 fw-bold ">
+                            sunny
+                          </span>
+                </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+<footer class="foot p-4 d-flex justify-content-center mt-5 ">
+    <p class="lead text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
